@@ -61,21 +61,24 @@ sshfs username@cbsubi2.biohpc.cornell.edu:/workdir/data/grape/grape_pheno/grape_
 For transferring files:
 Bash
 
+```
 sftp username@cbsubi2.biohpc.cornell.edu:/workdir/data/grape/grape_pheno/grape_blackbird
+```
 
-Data Organization
+#Data Organization
 Raw Data
 
 The raw data consists of Blackbird imaging system output stored in:
-Text Only
 
+```
 /workdir/data/grape/grape_pheno/grape_blackbird/raw/blackbird_images/
+```
 
 # Image Naming Convention
 
 Images follow the naming convention:
-Text Only
 
+```
 [sequence]-[genotype]_[replicate]_[plant]_[session].png
 
 Example: 001-GBC28_R1_P7_S1.png
@@ -85,12 +88,15 @@ Example: 001-GBC28_R1_P7_S1.png
     R1: Replicate 1
     P7: Plant 7
     S1: Session 1
+```
 
 # Models
 
 Trained models are stored in the models directory:
 
+```
 /workdir/data/grape/grape_pheno/grape_blackbird/models/
+```
 
 Each checkpoint directory contains model weights and training logs.
 Environment Setup
@@ -113,10 +119,11 @@ conda activate grape-blackbird
 Running the Code
 
 To run the code in this repository, you'll need to:
-
+```
     Clone this GitHub repository
     Access the data on the Cornell BioHPC server
     Update the data paths in the configuration files to point to your data location
+```
 
 Example:
 Bash
@@ -137,10 +144,12 @@ Model Checkpoints
 
 The model checkpoints are organized by timestamp in the format checkpoints_YYYYMMDD_HHMMSS. Each checkpoint directory contains:
 
+```
     Model weights (.pth files)
     Training configuration
     Training and validation logs
     Evaluation metrics
+```
 
 # Contributing
 
