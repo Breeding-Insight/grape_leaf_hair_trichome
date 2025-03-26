@@ -39,21 +39,24 @@ To access the data, you need an account on the Cornell BioHPC server. There are 
 1. Direct Server Access
 Bash
 
-# SSH into the server
+## SSH into the server
 ssh username@cbsubi2.biohpc.cornell.edu
 
-# Navigate to the project directory
+## Navigate to the project directory
+
+```
 cd /workdir/data/grape/grape_pheno/grape_blackbird/
+```
 
 2. SSHFS Mount
 
-You can mount the remote directory to your local machine:
+## You can mount the remote directory to your local machine:
 Bash
 
-# Create a mount point
+### Create a mount point
 mkdir -p ~/server_mounts/grape_blackbird
 
-# Mount the remote directory
+### Mount the remote directory
 sshfs username@cbsubi2.biohpc.cornell.edu:/workdir/data/grape/grape_pheno/grape_blackbird ~/server_mounts/grape_blackbird
 
 3. SFTP Access
