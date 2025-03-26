@@ -1,8 +1,9 @@
-Grape Blackbird
+# Grape Blackbird
 
 This repository contains code for analyzing grape phenotyping data collected using the Blackbird imaging system. All data, models, and configurations are stored on the Cornell BioHPC server.
 Repository Structure
 
+# Data Availability and Directory Structure:
 The project on csubi2 is organized as follows:
 Text Only
 
@@ -25,14 +26,13 @@ workdir/data/grape/grape_pheno/grape_blackbird/
 │
 └── scripts/                 # Analysis and utility scripts
 
-Data Storage
+# Data Storage
 
 All data for this project is stored on the Cornell BioHPC server and is not included in the GitHub repository. The data is located at:
-Text Only
 
 /workdir/data/grape/grape_pheno/grape_blackbird/
 
-Data Access
+# Data Access
 
 To access the data, you need an account on the Cornell BioHPC server. There are several methods to access the data:
 1. Direct Server Access
@@ -70,7 +70,7 @@ Text Only
 
 /workdir/data/grape/grape_pheno/grape_blackbird/raw/blackbird_images/
 
-Image Naming Convention
+# Image Naming Convention
 
 Images follow the naming convention:
 Text Only
@@ -85,10 +85,9 @@ Example: 001-GBC28_R1_P7_S1.png
     P7: Plant 7
     S1: Session 1
 
-Models
+# Models
 
 Trained models are stored in the models directory:
-Text Only
 
 /workdir/data/grape/grape_pheno/grape_blackbird/models/
 
@@ -142,7 +141,7 @@ The model checkpoints are organized by timestamp in the format checkpoints_YYYYM
     Training and validation logs
     Evaluation metrics
 
-Contributing
+# Contributing
 
 When contributing to this repository, please note that the data should remain on the server and not be committed to GitHub. Update paths in your code to reference the server location.
 Contact
