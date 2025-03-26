@@ -14,10 +14,10 @@ workdir/data/grape/grape_pheno/grape_blackbird/
 ├── data/                    # Data storage
 │   ├── annotations/         # Annotation files for training models
 │   ├── processed/           # Processed data files
-│   └── **raw/                 # Raw data files
+│   └── raw/                 # Raw data files
 │       └── blackbird_images/# Original blackbird images
 │           └── 001-GBC28_R1_P7_S1.png # Example image file
-│           └── [additional image files]**
+│           └── [additional image files]
 │
 ├── models/                  # Trained models
 │   └── phenotyping/         # Phenotyping model files
