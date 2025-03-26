@@ -5,7 +5,6 @@ Repository Structure
 
 # Data Availability and Directory Structure:
 The project on csubi2 is organized as follows:
-Text Only
 
 workdir/data/grape/grape_pheno/grape_blackbird/
 ├── configs/                 # Configuration files
