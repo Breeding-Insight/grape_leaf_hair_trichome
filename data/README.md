@@ -6,7 +6,7 @@ Repository Structure
 # Data Availability and Directory Structure:
 The project on csubi2 is organized as follows:
 
-'''
+```
 workdir/data/grape/grape_pheno/grape_blackbird/
 ├── configs/                 # Configuration files
 │   └── pytorch_nighlty-env.yaml   # Conda environment configuration
@@ -25,7 +25,7 @@ workdir/data/grape/grape_pheno/grape_blackbird/
 │           └── final_checkpoint.pth # Most up to date checkpoint
 │
 └── scripts/                 # Analysis and utility scripts
-'''
+```
 
 # Data Storage
 
