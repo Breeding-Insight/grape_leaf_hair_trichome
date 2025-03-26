@@ -69,7 +69,7 @@ sftp username@cbsubi2.biohpc.cornell.edu:/workdir/data/grape/grape_pheno/grape_b
 ```
 
 # Data Organization
-Raw Data
+## Raw Data
 
 The raw data consists of Blackbird imaging system output stored in:
 
